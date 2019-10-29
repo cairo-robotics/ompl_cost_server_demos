@@ -1,2 +1,2 @@
-# custom_planning
-A package for managing custom ROS cost functions for OMPL.
+# ompl_cost_server_demos
+A package for demo ROS cost function servers for OMPL.

@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>custom_planning</name>
-  <version>0.0.1</version>
-  <description>A package for managing custom ROS cost functions for OMPL.</description>
+  <name>ompl_cost_server_demos</name>
+  <version>1.0.0</version>
+  <description>A package for demo ROS cost function servers for OMPL.</description>
 
   <maintainer email="jgkawell@outlook.com">Jack Kawell</maintainer>
   <license>MIT</license>
