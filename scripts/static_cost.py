@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from ompl.srv import CustomCost, CustomCostResponse
+from moveit_msgs.srv import CustomCost, CustomCostResponse
 import rospy
 
 def handle_static_cost(request):
