@@ -8,7 +8,10 @@ import random
 def handle_random_cost(request):
     cost = random.random()
     rospy.loginfo("Returning cost: %f" % cost)
-    return cost
+    srv = CustomCostResponse()
+    srv.cost = cost
+    srv.type = 0
+    return srv
 
 
 def random_cost_server():
