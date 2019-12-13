@@ -7,7 +7,10 @@ import rospy
 def handle_static_cost(request):
     cost = 0.1
     rospy.loginfo("Returning cost: %f" % cost)
-    return cost
+    srv = CustomCostResponse()
+    srv.cost = cost
+    srv.type = 0
+    return srv
 
 
 def static_cost_server():
